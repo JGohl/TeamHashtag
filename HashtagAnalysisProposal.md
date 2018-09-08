@@ -2,26 +2,22 @@ Trend Analysis of Recent Twitter #Hashtags
 Data Analytics Boot Camp Project 1
 Adam Zimmerman, James Holland, Joshua Gohlike
 
-Proposal: We will be doing an analysis of three recent twitter hashtags to draw conclusions about user demographic and location trends, as well as hashtag performance over time. Specifically:
+Proposal: Using data made accessible via FiveThirtyEight, we will be conducting an analysis on a sampling of 3 million bot tweets connected to the investigation of Russian interference in the 2016 election. Specifically: 
 
-Is there a relationship between user age and the use of hashtags?
-What can user location tell us about these hashtag trends?
-How have these hashtags trended in frequency over time?
-Is there a relationship between hashtag usage and time of day?
+    From which regions were the tweets orginiating?
+    What kind of tweets were the bots retweeting?
+    How many followers did the bots have when they tweeted?
+    How many other twitter users were the bots following?
 
-We will attempt to answer these questions for the following hashtags between 2015 and June 2018:
-#WalkOut
-#Metoo
-#FakeNews
-
-Data source: To answer these questions, we will be exploring twitter APIs to gather the necessary data.
+Data source: To answer these questions, we will be using data sets available on the FiveThirtyEight github repository here: https://github.com/fivethirtyeight/russian-troll-tweets 
 
 Anticipated tasks:
+
 Develop systems for:
     productive meetings
     effective project management 
     optimal use of collaborative technology (GitHub, google docs) 
-Explore data sets available through twitter APIs
+Explore data sets available
 Develop code to collect data through APIs
 Develop code to explore and clean data
 Develop code to format and analyze data
