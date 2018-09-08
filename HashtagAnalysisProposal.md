@@ -18,7 +18,7 @@ Develop systems for:
     effective project management 
     optimal use of collaborative technology (GitHub, google docs) 
 Explore data sets available
-Develop code to collect data through APIs
+Develop code to geolocate tweet origin region
 Develop code to explore and clean data
 Develop code to format and analyze data
 Graph data and format for meaningful interpretation
