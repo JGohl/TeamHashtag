@@ -8,6 +8,7 @@ Proposal: Using data made accessible via FiveThirtyEight, we will be conducting 
     What kind of tweets were the bots retweeting?
     How many followers did the bots have when they tweeted?
     How many other twitter users were the bots following?
+    Did activity change around the time of the election?
 
 Data source: To answer these questions, we will be using data sets available on the FiveThirtyEight github repository here: https://github.com/fivethirtyeight/russian-troll-tweets 
 
