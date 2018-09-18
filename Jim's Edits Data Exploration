@@ -1,0 +1,36 @@
+The Internet Research Agency (IRA), based in St. Petersburg, as central to a Russian effort, 
+beginning in 2014, to sow discord in the U.S. political system, largely through social media. 
+Evidence of IRA-linked accounts was found on Facebook, Twitter, Instagram, and Google. 
+These accounts masqueraded as American citizens and were used to try to divide voters along a range of issues.
+
+At a February 13, 2018 U.S. Senate Intelligence Committee hearing, 
+Senator Mark Warner stated that social media companies have been “slow to recognize the threat” that Russian influence poses
+
+Research Questions
+Of the three million tweets, what is the breakdown by category, intent, language and time frame?
+Is there a relationship betewen account activity based on twitter bot category and time frame?
+What was the most used hashtags in the content of the tweets?
+
+Library import
+On top of csv, pandas, numpy, and matplotlib, we used additional libraries for manipulating and anaylizing our data.
+datetime - to change dates contained as string to a date format that can be used for boolean comparisons
+import glob - to pull data from all csv files in the work folder
+from progressbar import ProgressBar - to track progress of loops that took a long time to run.
+Data collection and build
+The data we used was contained in 13 separate csv files obtained from the FiveThirtyEight github. Each file was approximately 90MB. The first challenge was looping through each csv and adding it to a master data frame.
+Once the content was added to the master data frame, selected the columns in which we were interested.
+Steps one and two took considerable time given the size of the files. In order to speed this up, I combined both steps into the initial loop. A progress bar was added to the loop so we could track the progress of this loop.
+In loop, converted dates stored as string into datetime format using the datetime library
+Categorize tweet date into time frame category
+We wanted to look at whether there was any trend in tweets during certain time frames. We defined those time frames as pre-analysis, pre-election, election-season, post-election, and post-analysis. We were interested in tweets that took place during pre-election, election-season, and post-election.
+Created a new columns and assigned a value based on our defined time frames.
+Did a time frame values count to get an idea of the total number of tweets in each category.
+
+
+Twitter Followers and Following
+The data we used demonstrates that an overwhelming majority of Twitter users from this study did not follow many others
+
+Analysis of Data
+As we move move further into the digital age, it is important to understand how governments work to influence other nations’ domestic agendas
+ The IRA Twitter operation is an important example from the digital age 
+Russia’s attempts to distract, divide, and demoralize has been called a form of political war 
